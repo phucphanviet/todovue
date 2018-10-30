@@ -10,13 +10,7 @@ export default {
   name: 'App',
   data () {
     return {
-      todos: [
-        {
-          id: 0,
-          title: 'todo',
-          completed: false
-        }
-      ],
+      todos: [],
       newtodo: '',
       visibility: 'All'
     }
